@@ -10,6 +10,8 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+  height: 100%;
+  width: 100%;
   padding: 10px;
 }
 
@@ -33,13 +35,21 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border: 1px solid white;
+}
+
+.text-wrapper{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 5px;
 }
 
 .past {
