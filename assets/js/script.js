@@ -1,4 +1,9 @@
-var list = JSON.parse(localStorage.getItem("dayList"));
+var storage = localStorage.getItem("dayList");
+var list = null;
+if(storage!=null && storage != ""){
+    var list = JSON.parse(localStorage.getItem("dayList"));
+}
+
 
 // Update the current day on top of page
 function updateDay() {
