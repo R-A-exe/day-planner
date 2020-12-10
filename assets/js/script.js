@@ -1,7 +1,7 @@
 var storage = localStorage.getItem("dayList");
 var list = null;
 if(storage!=null && storage != ""){
-    var list = JSON.parse(localStorage.getItem("dayList"));
+    list = JSON.parse(localStorage.getItem("dayList"));
 }
 
 
