@@ -7,7 +7,7 @@ Link https://r-a-exe.github.io/day-planner/
 
 Day planner with color coded time tracking and task saving capability.
 
-![Screenshot](/assets/images/screenshot.png)
+![Screenshot](assets/images/Screenshot.png)
 
 ## The schedule
 
